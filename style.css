@@ -1,0 +1,208 @@
+* {
+    padding: 10px;
+    margin-top: 1px;
+    box-sizing: border-box;
+    background-color: white;
+    list-style-type: none;
+}
+.navbar {
+font-size: 25px;
+color: black;
+text-decoration: none;
+display: flex;
+justify-content: space-around;
+height: 200px;
+color: black;
+}
+
+.navbar .center-navbar-container {
+    margin-top: 5px;
+    display: inline-flex;
+    justify-content: space-between;
+  
+}
+.center-navbar-container a{
+    text-decoration: none;
+}
+
+.navbar .right-navbar {
+    display: flex;   
+}
+.navbar .right-navbar a{
+    text-decoration: none;
+}
+
+.navbar .right-navbar  .button {
+    background-color: green;
+    border-radius: 15%;
+    color: white;
+}
+.navbar .right-navbar .button i {
+    background-color: green;
+}
+.main {
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+.main .leftside-main {
+    display: absolute;
+    position: relative;
+    margin-top: 100px;    
+}
+.main .leftside-main a{
+text-decoration: none;
+}
+
+.main .leftside-main .btn1 {
+    background-color: green;
+    height: 300px;
+    border-radius: 50%;
+    color: white;
+    
+}
+
+.main .rightside-main  a{
+    width: 200px;
+    height: 200px; 
+      
+}
+
+.main .leftside-main span {
+    color: green;
+    
+}
+.right-navbar .btn {
+    background-color:green;
+    color: white;
+    border-radius: 25%;
+    height: 70px;
+}
+.right-navbar .btn i{
+    background-color:green;
+    
+}
+
+.rightside-main img {
+    height: 650px;
+    width: 800px;
+    
+}
+
+.card-container .card1 img{
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 300px;
+    width: 50%;
+    position: flex;
+
+
+}
+.card-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 300px;
+    width: 90%;
+    position: relative;
+    margin-bottom: 20px;
+    height: 300px;
+
+}   
+
+.card-container .card1 {
+    box-shadow: 0 5px 10px;
+    width: 25%;
+    border-radius: 10%;
+}
+
+.card-container .card1 h2 {
+    padding-left: 200px;
+
+}
+.card-container .card1 .star1 {
+    padding-left: 150px;
+}
+
+.card-container .card2 h2 {
+    padding-left: 200px;
+}
+.card-container .card2 .star2 {
+    padding-left: 150px;
+ }
+.card-container .card2 {
+    box-shadow: 0 5px 10px;
+    width: 25%;
+    border-radius: 10%;
+}
+
+.all-menu {
+  margin-left: 800px;
+  margin-top: 10px;
+}
+.all-menu h3{
+    color: red;
+}
+.four-cards {
+display: flex;
+justify-content: center;
+width: 100%;
+height: 50px;
+margin-top: 100px;
+box-sizing: border-box;
+
+} 
+
+.footer .footer-top {
+    display: block;
+    margin-top: 350px;
+    margin-left: 500px;
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px;
+    margin-left: 170px;
+    width: 80%;
+
+}
+
+.footer-card .card1 {
+    justify-content: space-between;
+    box-shadow: 0 5px 50px;
+    border-radius: 6%;
+    background-color: white;
+}
+.footer-card .card1 img {
+    background-color: white;
+
+}
+.footer-card .card1 .container2 {
+    background-color: white;
+}
+.footer-card .card2 {
+    box-shadow: 0 5px 50px;
+    border-radius: 6%;
+    background-color: white;
+}
+.footer-card .card2 img {
+    background-color: white;
+
+}
+.footer-card .card3 .container3 {
+    background-color: white;
+}
+.footer-card .card3 {
+    box-shadow: 0 5px 50px;
+    border-radius: 6%;
+    background-color: white;
+
+}
+.footer-card .card3 img {
+    background-color: white;
+
+}
+.footer-card .card3 .container3 {
+    background-color: white;
+}
